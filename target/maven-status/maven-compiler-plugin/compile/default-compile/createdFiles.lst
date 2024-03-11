@@ -1,0 +1,7 @@
+Beans\Saludo.class
+BeansStateful\Contar.class
+Beans\ISaludoRemote.class
+com\mycompany\mv100521\MV100521.class
+BeansStateful\IContador.class
+BeansSingleton\IUtilRemote.class
+BeansSingleton\Util.class
