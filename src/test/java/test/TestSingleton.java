@@ -26,7 +26,7 @@ public class TestSingleton {
         
         try{
             Context jndi = new InitialContext ();
-            IUtilRemote util = (IUtilRemote) jndi.lookup("");
+            IUtilRemote util = (IUtilRemote) jndi.lookup("java:global/MV100521-1.0-SNAPSHOT/Util!BeansSingleton.IUtilRemote");
             
             System.out.println("Respuesta: " + util.saludo());
             

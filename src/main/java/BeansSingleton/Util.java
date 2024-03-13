@@ -4,9 +4,9 @@
  */
 package BeansSingleton;
 
-import javax.ejb.Remote;
+import javax.ejb.Singleton;
 
-@Remote
+@Singleton
 public class Util implements IUtilRemote{
     
     @Override

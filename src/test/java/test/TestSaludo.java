@@ -13,7 +13,7 @@ import javax.naming.NamingException;
 
 public class TestSaludo {
     public static void main(String[] args){
-        saludo();
+        //saludo();
         contar();
     }
     

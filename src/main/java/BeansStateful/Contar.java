@@ -4,14 +4,24 @@
  */
 package BeansStateful;
 
-
+import BeansStateful.BeanLocal.ICalculo;
+import javax.ejb.EJB;
 import javax.ejb.Stateful;
+
 
 @Stateful
 public class Contar implements IContador{
     
+    @EJB
+    private ICalculo icalculo;
+    
+    
     private int item;
     
+     @Override
+    public String  test(){
+        return "Hola desde EJB Remoto + "  + icalculo.mensaje() ;
+    }
     @Override
     public void agregarItem(){
         item++;
@@ -32,11 +42,7 @@ public class Contar implements IContador{
         item--;
     }
     
-     @Override
-    public String  test(){
-        return "ola" ;
-    }
-    
+  
    
 }
 

@@ -1,6 +1,8 @@
+BeansStateful\BeanLocal\ICalculo.class
 Beans\Saludo.class
 BeansStateful\Contar.class
 Beans\ISaludoRemote.class
+BeansStateful\BeanLocal\Calculo.class
 com\mycompany\mv100521\MV100521.class
 BeansStateful\IContador.class
 BeansSingleton\IUtilRemote.class
